@@ -16,10 +16,10 @@ now = datetime.now()
 
 app = Flask(__name__)
 
-slack_token = "xoxb-503049869125-507697993413-lWHSaNxNhcyEv5bp9bH4vByB"
-slack_client_id = "503049869125.507327792692"
-slack_client_secret = "4e610caef78945a08b771c2622c70a05"
-slack_verification = "r4EVKUMluZIUM1NxMyNfxty7"
+slack_token = ""
+slack_client_id = ""
+slack_client_secret = ""
+slack_verification = ""
 sc = SlackClient(slack_token)
 
 state = 0  # {0예약  / 1무엇 / 2언제 / 3주기}
